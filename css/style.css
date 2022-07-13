@@ -22,7 +22,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   margin: 0;
 }
 
@@ -135,4 +136,38 @@ header::after {
 
 .header__decore-text {
   position: absolute;
+  bottom: 25px;
+  color: #0093a1;
+}
+
+.header__decore-text--one {
+  z-index: 1;
+  right: 145px;
+  bottom: 120px;
+}
+
+.header__decore-text--one,
+.header__decore-text--two {
+  font-weight: 400;
+  font-size: 130px;
+  line-height: 145px;
+  font-family: 'Comfortaa', cursive;
+  opacity: 0.3;
+}
+
+.header__decore-text--two {
+  z-index: 4;
+  left: 265px;
+  bottom: 0;
+}
+
+.header__decore-text--three {
+  max-width: 360px;
+  right: 145px;
+  z-index: 4;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 39px;
+  font-style: italic;
+  text-align: center;
 }
